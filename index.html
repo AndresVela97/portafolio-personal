@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Edwin Portafolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="logo">Edwin <span>Vela</span></div>
+        <div class="links">
+          <div class="link"><a href="#inicio">Inicio</a></div>
+          <div class="link"><a href="#sobre">Sobre Mí</a></div>
+          <div class="link"><a href="#habilidades">Habilidades</a></div>
+          <div class="link"><a href="#proyectos">Proyectos</a></div>
+          <div class="link"><a href="#formacion">Formación</a></div>
+          <div class="link"><a href="#contacto">Contacto</a></div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+      </div>
+      <div class="dropdown">
+        <div class="links">
+          <a href="#inicio">Inicio</a>
+          <a href="#sobre">Sobre Mí</a>
+          <a href="#habilidades">Habilidades</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#formacion">Formación</a>
+          <a href="#contacto">Contacto</a>
+          <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+        </div>
+      </div>
+    </nav>
+    <section id="inicio">
+      <div class="main-container">
+        <div class="image">
+          <img src="img/main.jpeg" alt="imagen portafolio" />
+        </div>
+
+        <div class="content">
+          <h1>Hola, Soy <span>Edwin</span></h1>
+          <div class="typewrinter">
+            Desarrollador<span class="typewrinter-text"></span><label for=""></label>
+          </div>
+
+          <p>
+            Actualmente estudio de
+            <strong style="color: #e5be01">Front-End </strong> en
+            <strong style="color: #e5be01">Alura Latam</strong> con el programa
+            ONE de Oracle Next Education, apasionado por crear experiencias web
+            interactivas y en constante aprendizaje para mejorar mis habilidades
+            en desarrollo.
+          </p>
+          <div class="social-links">
+            <a href="https://github.com/AndresVela97"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/edwin-andr%C3%A9s-vela-yate-3905881a9/"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+
+          <div class="btn">
+           <a href="#contacto"><button>Contactame</button></a> 
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="sobre">
+      <h1><span>Sobre</span> Mí</h1>
+      <div class="sobre-container">
+        <div class="sobre-container-desc">
+          <h3><span>Nombre : </span> Edwin Andres Vela Yate</h3>
+          <h3><span>Edad : </span> 27 Años</h3>
+          <h3><span>Email : </span> edwinvela2009@hotmail.com</h3>
+          <h3><span>Cargo : </span> Developer Java</h3>
+          <h3><span>Ubicación : </span> Bogotá <span>-</span> Colombia</h3>
+          <a href="#contacto"
+            ><button class="btn">
+              Descargar CV <i class="fas fa-download"></i></button
+          ></a>
+        </div>
+        <div class="counter">
+          <div class="box">
+            <span>2+</span>
+            <h3>Años de experiencia en Java - Spring Boot</h3>
+          </div>
+
+          <div class="box">
+            <span>2+</span>
+            <h3>Años de experiencia en SQl</h3>
+          </div>
+
+          <div class="box">
+            <span>2+</span>
+            <h3>Años de experiencia en POO</h3>
+          </div>
+
+          <div class="box">
+            <span>Est.</span>
+            <h3>Front-end - React</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades" class="habilidades">
+      <h1><span>Habilidades</span></h1>
+      <div class="habilidades-container">
+        <div class="list-container">
+          <div class="box-container">
+            <img
+              src="img/java.webp"
+              alt="imagen de logo de java"
+              class="box-images"
+            />
+            <h4>Java</h4>
+          </div>
+
+          <div class="box-container">
+            <img
+
+              src="img/spring boot.png"
+              alt="imagen de logo de Spring boot"
+              class="box-images"
+            />
+            <h4>Spring Boot</h4>
+          </div>
+
+          <div class="box-container">
+            <img
+              src="Img/sql.png"
+              alt="imagen de logo de Sql"
+              class="box-images"
+            />
+            <h4>SQL</h4>
+          </div>
+
+          <div class="box-container">
+            <img
+              src="img/postman.png"
+              alt="imagen de logo de Postman"
+              class="box-images"
+            />
+            <h4>Postman</h4>
+          </div>
+
+          <div class="box-container">
+            <img
+              src="Img/react.webp"
+              alt="imagen de logo de React"
+              class="box-images"
+            />
+            <h4>React</h4>
+          </div>
+
+          <div class="box-container">
+            <img
+              src="img/html.webp"
+              alt="imagen de logo de Html"
+              class="box-images"
+            />
+            <h4>Html</h4>
+          </div>
+
+          <div class="box-container">
+            <img
+              src="img/css.webp"
+              alt="imagen de logo de Css"
+              class="box-images"
+            />
+            <h4>Css</h4>
+          </div>
+
+          <div class="box-container">
+            <img
+              src="img/javaScript.png"
+              alt="imagen de logo de JavaScript"
+              class="box-images"
+            />
+            <h4>JavaScript</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="proyectos">
+      <h1><span>Proyectos</span></h1>
+      <div class="proyectos-container">
+        <div class="proyecto-container">
+          <h4><Span>Juego de</Span> número Secreto</h4>
+          <img
+            src="img/Juego numero secreto.JPG"
+            alt="imagen de logo de JavaScript"
+            class="proyectos-images"
+          />
+
+        </div>
+
+        <div class="proyecto-container">
+          <p>
+            El <span>juego del número secreto</span> es una aplicación sencilla en la que el
+            jugador debe adivinar un número entre 1 y 5 que es generado de forma
+            aleatoria. El usuario tiene un total de cinco oportunidades para
+            acertar el número secreto.
+          </p>
+          <h3>
+            <i class="fa-solid fa-code"></i
+            ><a href="https://github.com/AndresVela97/juego-secreto"> <span> Codigo</span></a>
+          </h3>
+        </div>
+      </div>
+      <div class="proyectos-container">
+        <div class="proyecto-container">
+            <p>
+                El <Span>encriptador de exto</Span> es un programa simple para encriptar 
+                y desencriptar texto utilizando  proporciona una manera fácil 
+                y efectiva de manipular texto según las reglas de encriptación especificadas.
+            </p>
+            <h3>
+              <i class="fa-solid fa-code"></i
+              ><a href="https://github.com/AndresVela97/encriptador-de-texto"><span> Codigo</span></a>
+            </h3>
+        </div>
+
+        <div class="proyecto-container">
+          <h4>Encriptador <span> de Texto</span></h4>
+          <img
+            src="img/encriptador de texto.JPG"
+            alt="imagen de logo de JavaScript"
+            class="proyectos-images"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="formacion" class="formacion">
+      <h1><span>Formación</span></h1>
+      <div class="formacion-container">
+        <div class="formaciones">
+          <div class="formaciones-container">
+            <img src="img/alura.jfif" alt="imagen Alura" class="imagenes" />
+            <h6>Front End</h6>
+            <h5>Alura Latam</h5>
+          </div>
+          <div class="formaciones-container">
+            <img
+              src="img/todos a la u uniandes.jpg"
+              alt="imagen todos a la u"
+              class="imagenes"
+            />
+            <h6>Analisis de datos basico</h6>
+            <h5>Uni. Andes - Todos a la U</h5>
+          </div>
+          <div class="formaciones-container">
+            <img
+              src="img/britsh.JPG"
+              alt="imagen brithis council"
+              class="imagenes"
+            />
+            <h6>Certificado Ingles A2</h6>
+            <h5>Britihs Council</h5>
+          </div>
+          <div class="formaciones-container">
+            <img
+              src="img/uSan jose.png"
+              alt="Imagen universidad san jose"
+              class="imagenes"
+            />
+            <h6>Ingenieria Sistemas</h6>
+            <h5>Universidad San Jose</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+      <h1><span>Contacto</span></h1>
+      <div class="contacto-container">
+        <h4><span>Correo: </span>edwinvela2009@hotmail.com</h4>
+        <h4></h4><span>Tel: +57 </span>322 2778830</h4>
+      </div>
+    </section>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
